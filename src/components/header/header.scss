@@ -1,0 +1,23 @@
+.header {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   padding: 20px 0;
+   z-index: 2;
+ 
+   &__menu {
+     display: none;
+   }
+
+   &__social {
+    display: flex;
+    margin-bottom: 0;
+   }
+
+   &__social-link {
+    margin-right: 10px;
+   }
+
+ }
+ 

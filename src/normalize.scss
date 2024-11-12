@@ -1,0 +1,76 @@
+/* normalize.scss */
+
+/* Сброс для всех стандартных элементов */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  line-height: 1.5;
+  font-family: var(--primary-font);
+  font-size: var(--font-size-body);
+  background-color: #fff;
+}
+
+/* Сброс для списков */
+ul,
+ol {
+  list-style-type: none; /* Убираем маркеры/номера у списков */
+  padding-left: 0; /* Убираем отступ слева */
+}
+
+/* Сброс для ссылок */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Сброс для таблиц */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 0;
+  text-align: left;
+  vertical-align: top;
+}
+
+/* Сброс для изображений */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Добавление нормализации для форм */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  border: none;
+  background: none;
+}
+
+/* Убираем стили для абзацев */
+p {
+  margin: 0;
+}
+
+/* Убираем стили для блоков */
+blockquote {
+  margin: 0;
+}
+
+
