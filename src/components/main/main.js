@@ -2,12 +2,15 @@ import Hero from "../hero/hero";
 import OurService from "../our-service/our-service";
 import About from "../about/about";
 import Contacts from "../contacts/contacts";
+
+import './main.scss';
+
 const Main = () => {
    return (
       <main className="main">
          <Hero />
          <OurService />
-         {/* <About /> */}
+         <About />
          <Contacts />
       </main>
    );

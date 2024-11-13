@@ -1,0 +1,92 @@
+.lesson-info {
+    &.open {
+        position: fixed;
+        top: 0;
+        left: 0;
+        overflow-y: auto;
+        background: linear-gradient(
+            10deg,
+            #d7f1ff 50%,
+            #309b19 100%,
+            #d7f1ff 0%
+        );
+        z-index: 1000;
+    }
+
+    &__container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 50px 20px;
+        position: fixed;
+        top: 7px;
+        left: 0;
+        right: 0;
+        bottom: 7px;
+        background: linear-gradient(
+            10deg,
+            #d7f1ff 50%,
+            #309b19 100%,
+            #d7f1ff 0%
+        );
+        z-index: 1000;
+        overflow-y: auto;
+        border: 3px solid black;
+    }
+
+    &__title {
+        font-size: 24px;
+        text-align: center;
+        font-family: var(--secondary-font);
+    }
+
+    &__list {
+        text-align: left;
+        list-style-type: "- ";
+        padding-left: 0;
+        line-height: 1.4;
+
+        & li {
+            margin-bottom: 10px;
+        }
+    }
+
+    &__list-working-time {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+
+        @media (min-width: 560px) {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        & dd,
+        &__price dd {
+            margin-left: 0;
+        }
+
+        &__working-time h5 {
+            margin-top: 0;
+        }
+    }
+
+    &__price dd {
+        font-family: var(--secondary-font);
+    }
+
+    &__button-close {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        width: 30px;
+        height: 30px;
+        background-color: #fff;
+    }
+
+    &__button-close:hover {
+        cursor: pointer;
+    }
+
+    &__list-advantages {
+        margin-top: 10px;
+    }
+}

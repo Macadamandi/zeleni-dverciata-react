@@ -4,8 +4,6 @@ import Header from "../header/header";
 import Main from "../main/main";
 import Footer from "../footer/footer";
 
-import './app.scss'
-
 class App extends Component {
    constructor(props) {
       super(props);

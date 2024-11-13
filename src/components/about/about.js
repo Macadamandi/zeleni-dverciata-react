@@ -1,5 +1,7 @@
 import Section from "../section/section";
 
+import './about.scss';
+
 const About = () => {
    const clazz = 'about';
    const containerClazz = '';

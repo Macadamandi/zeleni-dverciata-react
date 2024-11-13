@@ -1,0 +1,40 @@
+.service-info {
+   padding: 0 20px 20px;
+
+   a {
+      color: var(--color-primary);
+   }
+
+   &__desc {
+      padding-top: 156px;
+      margin: 18px 0;
+      font-size: 22px;
+      font-family: var(--secondary-font);
+   }
+
+   &__price-from {
+      font-size: 12px;
+      margin: 0;
+      color: var(--color-primary);
+   }
+
+   &__label {
+      display: inline-block;
+      font-size: 14px;
+      font-weight: 500;
+      padding: 5px 10px;
+      background-color: var(--bg-primary);
+      color: var(--color-light);
+      border-radius: 0 0 5px 5px;
+   }
+
+   &__btn-learn-more {
+      margin-top: 15px;
+      padding: 4px;
+      border: none;
+      border-radius: 5px;
+      color: var(--color-light);
+      background-color: #A7C62C;
+      cursor: pointer;
+   }
+}
